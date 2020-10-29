@@ -1,0 +1,6 @@
+C:\Users\ljhul\Desktop\MinimalisticTelnet\MinimalisticTelnet\obj\Debug\MinimalisticTelnet.csprojAssemblyReference.cache
+C:\Users\ljhul\Desktop\MinimalisticTelnet\MinimalisticTelnet\obj\Debug\MinimalisticTelnet.csproj.CoreCompileInputs.cache
+C:\Users\ljhul\Desktop\MinimalisticTelnet\MinimalisticTelnet\bin\Debug\BLWVisser SAFETIS Software.exe
+C:\Users\ljhul\Desktop\MinimalisticTelnet\MinimalisticTelnet\bin\Debug\BLWVisser SAFETIS Software.pdb
+C:\Users\ljhul\Desktop\MinimalisticTelnet\MinimalisticTelnet\obj\Debug\BLWVisser SAFETIS Software.exe
+C:\Users\ljhul\Desktop\MinimalisticTelnet\MinimalisticTelnet\obj\Debug\BLWVisser SAFETIS Software.pdb

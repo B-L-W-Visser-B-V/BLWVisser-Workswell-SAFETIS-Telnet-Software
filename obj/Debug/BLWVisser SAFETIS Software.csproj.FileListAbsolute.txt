@@ -1,0 +1,22 @@
+C:\Users\ljhul\Desktop\MinimalisticTelnet\MinimalisticTelnet\bin\Debug\BLWVisser SAFETIS Software.exe.config
+C:\Users\ljhul\Desktop\MinimalisticTelnet\MinimalisticTelnet\bin\Debug\BLWVisser SAFETIS Software.exe.manifest
+C:\Users\ljhul\Desktop\MinimalisticTelnet\MinimalisticTelnet\bin\Debug\BLWVisser SAFETIS Software.application
+C:\Users\ljhul\Desktop\MinimalisticTelnet\MinimalisticTelnet\bin\Debug\BLWVisser SAFETIS Software.exe
+C:\Users\ljhul\Desktop\MinimalisticTelnet\MinimalisticTelnet\bin\Debug\BLWVisser SAFETIS Software.pdb
+C:\Users\ljhul\Desktop\MinimalisticTelnet\MinimalisticTelnet\obj\Debug\BLWVisser SAFETIS Software.csprojAssemblyReference.cache
+C:\Users\ljhul\Desktop\MinimalisticTelnet\MinimalisticTelnet\obj\Debug\BLWVisser SAFETIS Software.csproj.CoreCompileInputs.cache
+C:\Users\ljhul\Desktop\MinimalisticTelnet\MinimalisticTelnet\obj\Debug\BLWVisser SAFETIS Software.exe.manifest
+C:\Users\ljhul\Desktop\MinimalisticTelnet\MinimalisticTelnet\obj\Debug\BLWVisser SAFETIS Software.application
+C:\Users\ljhul\Desktop\MinimalisticTelnet\MinimalisticTelnet\obj\Debug\BLWVisser SAFETIS Software.exe
+C:\Users\ljhul\Desktop\MinimalisticTelnet\MinimalisticTelnet\obj\Debug\BLWVisser SAFETIS Software.pdb
+C:\Users\ljhul\Desktop\blwvisser\BLWVisser SAFETIS Telnet\bin\Debug\BLWVisser SAFETIS Software.exe.config
+C:\Users\ljhul\Desktop\blwvisser\BLWVisser SAFETIS Telnet\bin\Debug\BLWVisser SAFETIS Software.exe.manifest
+C:\Users\ljhul\Desktop\blwvisser\BLWVisser SAFETIS Telnet\bin\Debug\BLWVisser SAFETIS Software.application
+C:\Users\ljhul\Desktop\blwvisser\BLWVisser SAFETIS Telnet\bin\Debug\BLWVisser SAFETIS Software.exe
+C:\Users\ljhul\Desktop\blwvisser\BLWVisser SAFETIS Telnet\bin\Debug\BLWVisser SAFETIS Software.pdb
+C:\Users\ljhul\Desktop\blwvisser\BLWVisser SAFETIS Telnet\obj\Debug\BLWVisser SAFETIS Software.csprojAssemblyReference.cache
+C:\Users\ljhul\Desktop\blwvisser\BLWVisser SAFETIS Telnet\obj\Debug\BLWVisser SAFETIS Software.csproj.CoreCompileInputs.cache
+C:\Users\ljhul\Desktop\blwvisser\BLWVisser SAFETIS Telnet\obj\Debug\BLWVisser SAFETIS Software.exe.manifest
+C:\Users\ljhul\Desktop\blwvisser\BLWVisser SAFETIS Telnet\obj\Debug\BLWVisser SAFETIS Software.application
+C:\Users\ljhul\Desktop\blwvisser\BLWVisser SAFETIS Telnet\obj\Debug\BLWVisser SAFETIS Software.exe
+C:\Users\ljhul\Desktop\blwvisser\BLWVisser SAFETIS Telnet\obj\Debug\BLWVisser SAFETIS Software.pdb
