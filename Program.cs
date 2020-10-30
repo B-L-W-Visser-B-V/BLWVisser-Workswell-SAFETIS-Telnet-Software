@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
+using System.Net.NetworkInformation;
 using System.Text;
 using System.Timers;
 
@@ -12,6 +13,8 @@ namespace MinimalisticTelnet
     {
         static void Main(string[] args)
         {
+            Console.Title = "Workswell SAFETIS Software | BLWVisser";
+            Console.Beep();
             Menu();
         }
 
@@ -30,7 +33,7 @@ namespace MinimalisticTelnet
             Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("BLWVisser SAFETIS Software - WARNING! All commands must be executed in CAPS");
             Console.ResetColor();
-            Console.WriteLine("\nInteraction Menu: \n1 - Connect with certain ip address \n2 - Connect with serial number \n3 - Open commands documentation \n4 - Connect to Thermal Frame Stream \n5 - Quit");
+            Console.WriteLine("\nInteraction Menu: \n1 - Connect with certain ip address \n2 - Connect with serial number \n3 - Open commands documentation \n4 - Connect to Thermal Frame Stream\n5 - Device Availability Check \n6 - Quit");
             Console.WriteLine("\nSelect option:");
             
             string menurespone = Console.ReadLine();
@@ -40,8 +43,7 @@ namespace MinimalisticTelnet
                 Console.Clear();
                 Console.WriteLine("Enter SAFETIS ip:");
                 string safetisip = Console.ReadLine();
-                Console.WriteLine("Enter SAFETIS port:");
-                int safetisport = Convert.ToInt32(Console.ReadLine());
+                int safetisport = 2245;
                 Console.Clear();
                 ConnectTelnet(safetisip, safetisport);
             }
@@ -51,8 +53,7 @@ namespace MinimalisticTelnet
                 Console.WriteLine("Enter the the first 4 numbers of the SAFETIS serial number:");
                 string safetis_sn = Console.ReadLine();
                 string safetisip = "10.0." + safetis_sn.Insert(2, ".");
-                Console.WriteLine("Enter SAFETIS port:");
-                int safetisport = Convert.ToInt32(Console.ReadLine());
+                int safetisport = 2245;
                 Console.Clear();
                 ConnectTelnet(safetisip, safetisport);
             }
@@ -77,7 +78,7 @@ namespace MinimalisticTelnet
             }
             if (menurespone == "5")
             {
-                System.Environment.Exit(1);
+                finddevices();
             }
             if (menurespone == "6")
             {
@@ -117,7 +118,34 @@ namespace MinimalisticTelnet
         }
         static void finddevices()
         {
-
+            try
+            {
+                Console.Clear();
+                Console.WriteLine("Enter device IP:");
+                string safetisip = Console.ReadLine();
+                Ping ping = new Ping();
+                PingReply pingresult = ping.Send(safetisip);
+                if (pingresult.Status.ToString() == "Success")
+                {
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    Console.WriteLine("ONLINE!");
+                    Console.ResetColor();
+                }
+                else
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("OFFLINE!");
+                    Console.ResetColor();
+                }
+            }
+            catch (Exception)
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("ip ongeldig!");
+                Console.ResetColor();
+            }
+            Console.WriteLine("Press ENTER to continue...");
+            Console.ReadLine();
         }
     }
 }
