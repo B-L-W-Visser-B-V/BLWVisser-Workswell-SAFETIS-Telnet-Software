@@ -9,14 +9,3 @@ C:\Users\ljhul\Desktop\MinimalisticTelnet\MinimalisticTelnet\obj\Release\BLWViss
 C:\Users\ljhul\Desktop\MinimalisticTelnet\MinimalisticTelnet\obj\Release\BLWVisser SAFETIS Software.application
 C:\Users\ljhul\Desktop\MinimalisticTelnet\MinimalisticTelnet\obj\Release\BLWVisser SAFETIS Software.exe
 C:\Users\ljhul\Desktop\MinimalisticTelnet\MinimalisticTelnet\obj\Release\BLWVisser SAFETIS Software.pdb
-C:\Users\ljhul\Desktop\blwvisser\BLWVisser-Workswell-Safetis-Software\bin\Release\BLWVisser SAFETIS Software.exe.config
-C:\Users\ljhul\Desktop\blwvisser\BLWVisser-Workswell-Safetis-Software\bin\Release\BLWVisser SAFETIS Software.exe.manifest
-C:\Users\ljhul\Desktop\blwvisser\BLWVisser-Workswell-Safetis-Software\bin\Release\BLWVisser SAFETIS Software.application
-C:\Users\ljhul\Desktop\blwvisser\BLWVisser-Workswell-Safetis-Software\bin\Release\BLWVisser SAFETIS Software.exe
-C:\Users\ljhul\Desktop\blwvisser\BLWVisser-Workswell-Safetis-Software\bin\Release\BLWVisser SAFETIS Software.pdb
-C:\Users\ljhul\Desktop\blwvisser\BLWVisser-Workswell-Safetis-Software\obj\Release\BLWVisser SAFETIS Software.csprojAssemblyReference.cache
-C:\Users\ljhul\Desktop\blwvisser\BLWVisser-Workswell-Safetis-Software\obj\Release\BLWVisser SAFETIS Software.csproj.CoreCompileInputs.cache
-C:\Users\ljhul\Desktop\blwvisser\BLWVisser-Workswell-Safetis-Software\obj\Release\BLWVisser SAFETIS Software.exe.manifest
-C:\Users\ljhul\Desktop\blwvisser\BLWVisser-Workswell-Safetis-Software\obj\Release\BLWVisser SAFETIS Software.application
-C:\Users\ljhul\Desktop\blwvisser\BLWVisser-Workswell-Safetis-Software\obj\Release\BLWVisser SAFETIS Software.exe
-C:\Users\ljhul\Desktop\blwvisser\BLWVisser-Workswell-Safetis-Software\obj\Release\BLWVisser SAFETIS Software.pdb
