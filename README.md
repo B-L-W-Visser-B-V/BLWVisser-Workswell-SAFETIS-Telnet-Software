@@ -1,7 +1,7 @@
 
 <h1 align="center">
   <br>
-  <a href="https://blwvisser.nl"><img src="https://www.blwvisser.nl/wp-content/uploads/2020/09/logo.png" alt="BLWVisser" width="800"></a>
+  <a href="https://blwvisser.nl"><img src="https://www.blwvisser.nl/wp-content/uploads/2020/09/logo.png" alt="BLWVisser" width="500"></a>
   <br>
   BLWVisser
   <br>
