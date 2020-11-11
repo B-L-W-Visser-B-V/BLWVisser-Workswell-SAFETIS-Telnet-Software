@@ -1,7 +1,7 @@
 
 <h1 align="center">
   <br>
-  <a href="https://blwvisser.nl"><img src="https://www.blwvisser.nl/wp-content/uploads/2020/09/logo.png" alt="BLWVisser" width="200"></a>
+  <a href="https://blwvisser.nl"><img src="https://www.blwvisser.nl/wp-content/uploads/2020/09/logo.png" alt="BLWVisser" width="800"></a>
   <br>
   BLWVisser
   <br>
@@ -14,6 +14,7 @@
   <a href="#how-to-use">How To Use</a> •
   <a href="#download">Download</a> •
   <a href="#credits">Credits</a> •
+  <a href="#contact">Contact</a> •
   <a href="#license">License</a>
 </p>
 
