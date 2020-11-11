@@ -59,10 +59,6 @@ This software uses the following open source packages:
 
 ## License
 
-MIT
-
----
-
 > [lucashuls.nl](https://lucashuls.nl) &nbsp;&middot;&nbsp;
 > GitHub [@LucasHuls](https://github.com/LucasHuls) &nbsp;&middot;&nbsp;
 
