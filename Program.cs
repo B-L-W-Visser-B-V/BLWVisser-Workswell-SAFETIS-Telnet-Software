@@ -1,5 +1,6 @@
 using System;
 using System.IO;
+using System.Management;
 using System.Net.NetworkInformation;
 
 namespace MinimalisticTelnet
@@ -15,7 +16,7 @@ namespace MinimalisticTelnet
 
         public static void Menu()
         {
-            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.ForegroundColor = GetRandomConsoleColor();
             string blwvisser = @"
     ____  __ _       ___    ___                    
    / __ )/ /| |     / / |  / (_)____________  _____
@@ -89,29 +90,38 @@ namespace MinimalisticTelnet
 
         private static void ConnectTelnet(string safetisip, int safetisport)
         {
-            TelnetConnection tc = new TelnetConnection(safetisip, safetisport);
-
-            string s = tc.Login("root", "rootpassword", 100);
-            Console.Write(s);
-
-            string prompt = s.TrimEnd();
-            prompt = s.Substring(prompt.Length - 1, 1);
-
-            prompt = "";
-
-            if (tc.IsConnected == true)
+            try
             {
-                Console.WriteLine("\n\nConnected to " + safetisip);
-                Console.WriteLine("Type 'exit' to disconnect");
+                TelnetConnection tc = new TelnetConnection(safetisip, safetisport);
+
+                string s = tc.Login("root", "rootpassword", 100);
+                Console.Write(s);
+
+                string prompt = s.TrimEnd();
+                prompt = s.Substring(prompt.Length - 1, 1);
+
+                prompt = "";
+
+                if (tc.IsConnected == true)
+                {
+                    Console.WriteLine("\n\nConnected to " + safetisip);
+                    Console.WriteLine("Type 'exit' to disconnect");
+                }
+
+                while (tc.IsConnected && prompt.Trim() != "exit" && prompt.Trim() != "leave" && prompt.Trim() != "disconnect")
+                {
+                    Console.Write(tc.Read());
+                    prompt = Console.ReadLine();
+                    tc.WriteLine(prompt);
+                    Console.Write(tc.Read());
+                    File.AppendAllText(@"c:\blwvisser\test.txt", tc.Read());
+                    File.AppendAllText(@"c:\blwvisser\test.png", tc.Read());
+                }
             }
-
-            while (tc.IsConnected && prompt.Trim() != "exit")
+            catch (Exception)
             {
-                Console.Write(tc.Read());
-                prompt = Console.ReadLine();
-                tc.WriteLine(prompt);
-                Console.Write(tc.Read());
-                File.AppendAllText(@"c:\blwvisser\test.txt", tc.Read());
+                Console.WriteLine("Interne Fout!");
+                Menu();
             }
         }
 
@@ -142,6 +152,13 @@ namespace MinimalisticTelnet
             }
             Console.WriteLine("Press ENTER to continue...");
             Console.ReadLine();
+        }
+
+        private static Random _random = new Random();
+        private static ConsoleColor GetRandomConsoleColor()
+        {
+            var consoleColors = Enum.GetValues(typeof(ConsoleColor));
+            return (ConsoleColor)consoleColors.GetValue(_random.Next(consoleColors.Length));
         }
     }
 }
