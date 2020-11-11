@@ -50,7 +50,7 @@ This software uses the following open source packages:
 
 ## Contact
 
-<a href="https://www.linkedin.com/in/lucas-huls-261821194" target="_blank"><img src="https://github.com/LucasHuls/BLWVisser-Workswell-Safetis-Software/blob/main/app/img/button-linkedin.png" alt="Linkedin" style="height: 20px !important;width: 160px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
+<a href="https://www.linkedin.com/in/lucas-huls-261821194" target="_blank"><img src="https://github.com/LucasHuls/BLWVisser-Workswell-Safetis-Software/blob/main/app/img/button-linkedin.png" alt="Linkedin" ></a>
 
 <p>Or</p> 
 
