@@ -1,7 +1,7 @@
 
 <h1 align="center">
   <br>
-  <a href="https://blwvisser.nl"><img src="http://www.blwvisser.nl/wp-content/uploads/2020/09/icoon.png" alt="BLWVisser" width="200"></a>
+  <a href="https://blwvisser.nl"><img src="https://www.blwvisser.nl/wp-content/uploads/2020/09/logo.png" alt="BLWVisser" width="200"></a>
   <br>
   BLWVisser
   <br>
@@ -17,7 +17,7 @@
   <a href="#license">License</a>
 </p>
 
-![screenshot](https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.gif)
+![screenshot](http://www.blwvisser.nl/wp-content/uploads/2020/11/Naamloos.png)
 
 ## Features
 
@@ -33,12 +33,12 @@ To clone and run this application, you'll need [Git](https://git-scm.com) instal
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/amitmerchant1990/electron-markdownify
+$ git clone https://github.com/LucasHuls/BLWVisser-Workswell-Safetis-Software
 ```
 
 ## Download
 
-You can [download](https://github.com/amitmerchant1990/electron-markdownify/releases/tag/v1.2.0) the latest installable version of Markdownify for Windows only!
+You can [download](https://github.com/LucasHuls/BLWVisser-Workswell-Safetis-Software/releases) the latest installable version of the software for Windows only!
 
 ## Credits
 
