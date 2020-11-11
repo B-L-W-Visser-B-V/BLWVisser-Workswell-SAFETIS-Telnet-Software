@@ -3,8 +3,6 @@
   <br>
   <a href="https://blwvisser.nl"><img src="https://www.blwvisser.nl/wp-content/uploads/2020/09/logo.png" alt="BLWVisser" width="500"></a>
   <br>
-  BLWVisser
-  <br>
 </h1>
 
 <h4 align="center">SAFETIS Telnet Software - <a href="https://blwvisser.nl" target="_blank">BLWVisser</a>.</h4>
